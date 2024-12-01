@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome, User!</h1>
+            <nav>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="transfer.html">Transfer Funds</a>
+                <a href="paybills.html">Pay Bills</a>
+                <a href="history.html">Transaction History</a>
+                <a href="logout.html">Logout</a>
+            </nav>
+        </header>
+        <main>
+            <section class="account-info">
+                <h2>Account Summary</h2>
+                <p>Account Number: 123456789</p>
+                <p>Current Balance: $5,000</p>
+            </section>
+            <section class="quick-actions">
+                <h2>Quick Actions</h2>
+                <button onclick="window.location.href='transfer.html'">Transfer Funds</button>
+                <button onclick="window.location.href='paybills.html'">Pay Bills</button>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
